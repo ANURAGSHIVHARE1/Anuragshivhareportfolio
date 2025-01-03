@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anurag Shivhare - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Adding Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #1a1a1a; /* Dark background */
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #FFD700; /* Yellow background */
+      color: #000;
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 4em;
+      font-family: 'Lora', serif;
+    }
+
+    header p {
+      font-size: 1.5em;
+    }
+
+    /* About Section */
+    #about {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #333;
+    }
+
+    #about h2 {
+      font-size: 2.5em;
+      color: #FFD700;
+    }
+
+    #about p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Education Section */
+    #education {
+      padding: 50px 20px;
+      background-color: #222;
+      text-align: center;
+    }
+
+    #education h2 {
+      font-size: 2.5em;
+      color: #FFD700;
+    }
+
+    .education-item {
+      background-color: #444;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      width: 45%;
+      text-align: left;
+      box-sizing: border-box;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .education-item h3 {
+      font-size: 1.8em;
+      color: #FFD700;
+    }
+
+    .education-item p {
+      font-size: 1.2em;
+    }
+
+    /* Portfolio Section */
+    #portfolio {
+      padding: 50px 20px;
+      background-color: #222;
+      text-align: center;
+    }
+
+    #portfolio h2 {
+      font-size: 2.5em;
+      color: #FFD700;
+    }
+
+    .portfolio-item {
+      display: inline-block;
+      width: 45%;
+      margin: 20px;
+      background-color: #444;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio-item h3 {
+      font-size: 1.8em;
+      color: #FFD700;
+    }
+
+    /* Skills Section */
+    #skills {
+      padding: 50px 20px;
+      background-color: #333;
+      text-align: center;
+    }
+
+    #skills h2 {
+      font-size: 2.5em;
+      color: #FFD700;
+    }
+
+    .skills-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .skill {
+      background-color: #444;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 25%;
+      box-sizing: border-box;
+      font-size: 1.2em;
+    }
+
+    /* Hobbies Section */
+    #hobbies {
+      padding: 50px 20px;
+      background-color: #222;
+      text-align: center;
+    }
+
+    #hobbies h2 {
+      font-size: 2.5em;
+      color: #FFD700;
+    }
+
+    .hobby-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .hobby {
+      background-color: #444;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 25%;
+      box-sizing: border-box;
+      font-size: 1.2em;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 50px 20px;
+      background-color: #222;
+      text-align: center;
+    }
+
+    #contact h2 {
+      font-size: 2.5em;
+      color: #FFD700;
+    }
+
+    .contact-info {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+
+    .contact-info a {
+      color: #FFD700;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 1.5em;
+    }
+
+    .contact-info a:hover {
+      color: #fff;
+    }
+
+    .contact-info .social-icons a {
+      margin: 0 15px;
+      font-size: 2em;
+      color: #FFD700;
+    }
+
+    .contact-info .social-icons a:hover {
+      color: #fff;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      background-color: #111;
+      padding: 20px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>ANURAG SHIVHARE</h1>
+    <p>Associate @Cognizant | Data Analyst |  <br /> Network Engineer | Web Developer</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, folks Anurag Shivhare this side , working professional at Cognizant and a passionate web developer with a knack for designing creative, user-friendly websites. With a focus on modern web technologies, I help businesses create amazing digital experiences.</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3>Bachelor of Technology</h3>
+      <p>LNCT BHOPAL | 2020 - 2024</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="portfolio-item">
+      <h3>Amazon Portfolio Website & Personal Portfolio Website</h3>
+    </div>
+    <div class="portfolio-item">
+      <h3>Dice Simulator Game</h3>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">Python</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">Data Analysis</div>
+      <div class="skill">Networking</div>
+    </div>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <div class="hobby-list">
+      <div class="hobby">Reading emerging technology blog</div>
+      <div class="hobby">Web development</div>
+      <div class="hobby">Exploring Hinduism temples</div>
+      <div class="hobby">Travelling</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:Anuragshivhare7000@gmail.com">Anuragshivhare7000@gmail.com</a></p>
+      <p>Phone: 7000350441</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/anurag_shivhare_____" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1B1qERPHCP/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/anurag-shivhare-998844218" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Thank you for visiting</p>
+  </footer>
+
+</body>
+</html>
